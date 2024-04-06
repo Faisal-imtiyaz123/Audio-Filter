@@ -1,26 +1,35 @@
-import soundfile as sf 
+import soundfile as sf
 from scipy import signal
 
-# Read .wav file
-input_signal, fs = sf.read('audio-filter-sound.wav')
+# Read .wav file 
+input_signal, fs = sf.read('audio-filter-sound.wav') 
 
-# Sampling frequency of Input signal
-sample_freq = fs
+# Check the number of channels in the input signal
+num_channels = input_signal.shape[1]
+
+# If there are multiple channels, separate them
+if num_channels > 1:
+    channel1 = input_signal[:, 0]  # Assuming you want to process the first channel
+else:
+    channel1 = input_signal  # Use the single channel
+
+# Sampling frequency of input signal
+sampl_freq = fs
 
 # Order of the filter
 order = 4
 
-# Cutoff frequency 4kHz
-cutoff_freq = 4000.0 
+# Cutoff frequency 
+cutoff_freq = 1000.0  
 
 # Digital frequency
-Wn = 2 * cutoff_freq / sample_freq
+Wn = 2 * cutoff_freq / sampl_freq  
 
-# b and a are numerator and denominator polynomials respectively
-b, a = signal.butter(order, Wn, 'low')
+# Design the filter
+b, a = signal.butter(order, Wn, 'low') 
 
-# Filter the input signal with Butterworth filter
-output_signal = signal.filtfilt(b, a, input_signal, padlen=1)  # Increased padlen
+# Apply the filter to the chosen channel
+output_signal = signal.filtfilt(b, a, channel1, padlen=1)
 
 # Write the output signal into .wav file
-sf.write('output.wav', output_signal, fs)
+sf.write('Sound_With_ReducedNoise.wav', output_signal, fs)

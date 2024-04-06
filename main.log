@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.8)  5 APR 2024 23:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.8)  6 APR 2024 20:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1243,21 +1243,17 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 4
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
-) (./main.aux)
-Runaway argument?
-{{44}{4}{DFT and FFT}{equation.5.4 
-! File ended while scanning use of \@newl@bel.
-<inserted text> 
-                \par 
-l.46 \begin{document}
-                     
-? 
+) (./main.aux
+
+LaTeX Warning: Label `fig:H(w)_6' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 46.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 46.
-(/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/omltxmi.fd
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 46.
@@ -1407,7 +1403,16 @@ File: ts1txr.fd 2000/12/15 v3.1
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 71.
 
-(./codes/filter.py)
+(./codes/filter.py
+LaTeX Font Info:    Trying to load font information for OML+txr on input line 1
+1.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/omltxr.fd
+File: omltxr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `OML/txr/m/n' in size <12> not available
+(Font)              Font shape `OML/txmi/m/it' tried instead on input line 11.
+)
 Underfull \hbox (badness 10000) in paragraph at lines 76--77
 []\OT1/txr/m/n/12 The au-dio file is an-a-lyzed us-ing
  []
@@ -1422,27 +1427,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
-<figs/Before_audiofilter.png, id=9, 828.09375pt x 554.07pt>
+<figs/Before_audiofilter.png, id=33, 842.14626pt x 561.09625pt>
 File: figs/Before_audiofilter.png Graphic file (type png)
 <use figs/Before_audiofilter.png>
 Package pdftex.def Info: figs/Before_audiofilter.png  used on input line 82.
-(pdftex.def)             Requested size: 201.60077pt x 134.89021pt.
-<figs/After_audiofilter.png, id=11, 832.10875pt x 552.0625pt>
+(pdftex.def)             Requested size: 201.60077pt x 134.31482pt.
+<figs/After_audiofilter.png, id=35, 837.1275pt x 557.08125pt>
 File: figs/After_audiofilter.png Graphic file (type png)
 <use figs/After_audiofilter.png>
 Package pdftex.def Info: figs/After_audiofilter.png  used on input line 87.
-(pdftex.def)             Requested size: 201.60077pt x 133.75284pt.
+(pdftex.def)             Requested size: 201.60077pt x 134.15274pt.
 [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
 ocal/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
  <./figs/Before_audiofilter.png> <./figs/After_audiofilter.png>]
-<figs/Plot_xn_yn.png, id=67, 462.528pt x 346.896pt>
+<figs/Plot_xn_yn.png, id=94, 462.528pt x 346.896pt>
 File: figs/Plot_xn_yn.png Graphic file (type png)
 <use figs/Plot_xn_yn.png>
 Package pdftex.def Info: figs/Plot_xn_yn.png  used on input line 122.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
-
+ [2 <./figs/Plot_xn_yn.png>]
 
 LaTeX Warning: Command \j invalid in math mode on input line 225.
 
@@ -1455,46 +1460,34 @@ LaTeX Warning: Command \j invalid in math mode on input line 227.
 
 LaTeX Warning: Command \j invalid in math mode on input line 227.
 
-[2 <./figs/Plot_xn_yn.png>]
-
-! LaTeX Error: File `figs/hn' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.282 ...ludegraphics[width=\columnwidth]{figs/hn}
-                                                  
-? 
-
+<figs/hn.png, id=144, 462.528pt x 346.896pt>
+File: figs/hn.png Graphic file (type png)
+<use figs/hn.png>
+Package pdftex.def Info: figs/hn.png  used on input line 282.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
+[3 <./figs/hn.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 310--316
 
  []
 
-
-! LaTeX Error: File `figs/hndef' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.325 ...egraphics[width=\columnwidth]{figs/hndef}
-                                                  
-? 
-[3]
+<figs/hndef.png, id=181, 462.528pt x 346.896pt>
+File: figs/hndef.png Graphic file (type png)
+<use figs/hndef.png>
+Package pdftex.def Info: figs/hndef.png  used on input line 325.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
 
 LaTeX Warning: Command \j invalid in math mode on input line 375.
 
 
 LaTeX Warning: Command \j invalid in math mode on input line 385.
 
-<figs/yn_verf_5.4.png, id=163, 462.528pt x 346.896pt>
+<figs/yn_verf_5.4.png, id=187, 462.528pt x 346.896pt>
 File: figs/yn_verf_5.4.png Graphic file (type png)
 <use figs/yn_verf_5.4.png>
 Package pdftex.def Info: figs/yn_verf_5.4.png  used on input line 402.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
-[4 <./figs/yn_verf_5.4.png>]
-<figs/yn_DFT_matrix.png, id=197, 462.528pt x 346.896pt>
+[4 <./figs/hndef.png>]
+<figs/yn_DFT_matrix.png, id=221, 462.528pt x 346.896pt>
 File: figs/yn_DFT_matrix.png Graphic file (type png)
 <use figs/yn_DFT_matrix.png>
 Package pdftex.def Info: figs/yn_DFT_matrix.png  used on input line 448.
@@ -1529,30 +1522,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 469--473
 
  []
 
+<figs/comparision.png, id=224, 722.7pt x 433.62pt>
+File: figs/comparision.png Graphic file (type png)
+<use figs/comparision.png>
+Package pdftex.def Info: figs/comparision.png  used on input line 480.
+(pdftex.def)             Requested size: 252.0pt x 151.20026pt.
 
-LaTeX Warning: File `figs/Audio_Filter_verf.png' not found on input line 480.
+Underfull \vbox (badness 4899) has occurred while \output is active []
 
-
-! Package pdftex.def Error: File `figs/Audio_Filter_verf.png' not found: using 
-draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.480 ...\columnwidth]{figs/Audio_Filter_verf.png}
-                                                  
-? 
-LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 
-480.
-(/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/ot1txtt.fd
-File: ot1txtt.fd 2000/12/15 v3.1
-)
-
-LaTeX Warning: Reference `eq:iir_filter_gen' on page 5 undefined on input line 
-496.
-
-
+ [5 <./figs/yn_verf_5.4.png> <./figs/yn_DFT_matrix.png>]
 Overfull \hbox (27.65247pt too wide) detected at line 499
 []
  []
@@ -1563,90 +1541,43 @@ Overfull \hbox (7.96732pt too wide) detected at line 507
  []
 
 
-LaTeX Warning: Reference `eq:iir_filter_gen' on page 5 undefined on input line 
-508.
-
-
-LaTeX Warning: Reference `eq:trans-func' on page 5 undefined on input line 513.
-
-
-[5 <./figs/yn_DFT_matrix.png>]
-
-LaTeX Warning: Reference `eq:trans-func-pfe' on page 6 undefined on input line 
-523.
-
-
-LaTeX Warning: Reference `eq:res-1' on page 6 undefined on input line 523.
-
-
-LaTeX Warning: Reference `eq:res-2' on page 6 undefined on input line 523.
-
-
 Underfull \hbox (badness 2460) in paragraph at lines 527--529
 \OT1/txr/m/n/12 The be-low code com-putes the val-ues of
  []
 
+(./tables/audio_filter_tab.tex
+Overfull \hbox (11.16006pt too wide) in paragraph at lines 5--14
+ [][] 
+ []
 
-LaTeX Warning: File `figs/Filter_Response.png' not found on input line 547.
+)
+<figs/Frequency_Response.png, id=256, 722.7pt x 433.62pt>
+File: figs/Frequency_Response.png Graphic file (type png)
+<use figs/Frequency_Response.png>
+Package pdftex.def Info: figs/Frequency_Response.png  used on input line 547.
+(pdftex.def)             Requested size: 252.0pt x 151.20026pt.
 
+Underfull \vbox (badness 1496) has occurred while \output is active []
 
-! Package pdftex.def Error: File `figs/Filter_Response.png' not found: using dr
-aft setting.
+ [6 <./figs/comparision.png>]
+<figs/Butterworth_analog.png, id=281, 722.7pt x 433.62pt>
+File: figs/Butterworth_analog.png Graphic file (type png)
+<use figs/Butterworth_analog.png>
+Package pdftex.def Info: figs/Butterworth_analog.png  used on input line 560.
+(pdftex.def)             Requested size: 252.0pt x 151.20026pt.
+<figs/Pole_Zero_Plt.png, id=282, 722.7pt x 578.16pt>
+File: figs/Pole_Zero_Plt.png Graphic file (type png)
+<use figs/Pole_Zero_Plt.png>
+Package pdftex.def Info: figs/Pole_Zero_Plt.png  used on input line 573.
+(pdftex.def)             Requested size: 252.0pt x 201.60033pt.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.547 ...=1\columnwidth]{figs/Filter_Response.png}
-                                                  
-? 
+Underfull \vbox (badness 3439) has occurred while \output is active []
 
-Underfull \vbox (badness 4981) has occurred while \output is active []
-
-
-
-LaTeX Warning: File `figs/Butterworth_analog.png' not found on input line 560.
-
-
-! Package pdftex.def Error: File `figs/Butterworth_analog.png' not found: using
- draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.560 ...columnwidth]{figs/Butterworth_analog.png}
-                                                  
-? 
-[6]
-
-LaTeX Warning: File `figs/Pole_Zero_Plt.png' not found on input line 573.
-
-
-! Package pdftex.def Error: File `figs/Pole_Zero_Plt.png' not found: using draf
-t setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.573 ...th=1\columnwidth]{figs/Pole_Zero_Plt.png}
-                                                  
-? 
-
-LaTeX Warning: File `figs/h(n)_6.2.png' not found on input line 580.
-
-
-! Package pdftex.def Error: File `figs/h(n)_6.2.png' not found: using draft set
-ting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.580 ...cs[width=\columnwidth]{figs/h(n)_6.2.png}
-                                                  
-? 
+<figs/h(n)_6.2.png, id=283, 722.7pt x 433.62pt>
+File: figs/h(n)_6.2.png Graphic file (type png)
+<use figs/h(n)_6.2.png>
+Package pdftex.def Info: figs/h(n)_6.2.png  used on input line 580.
+(pdftex.def)             Requested size: 252.0pt x 151.20026pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 586--587
 
@@ -1657,69 +1588,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 592--593
 
  []
 
+[7 <./figs/Frequency_Response.png> <./figs/Butterworth_analog.png> <./figs/Pole
+_Zero_Plt.png> <./figs/h(n)_6.2.png>]
+<figs/Time Complexity Comparision.png, id=308, 462.528pt x 346.896pt>
+File: figs/Time Complexity Comparision.png Graphic file (type png)
+<use figs/Time Complexity Comparision.png>
+Package pdftex.def Info: figs/Time Complexity Comparision.png  used on input li
+ne 616.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
+ [8
 
-LaTeX Warning: File `figs/Time Complexity Comparision.png' not found on input l
-ine 616.
+ <./figs/Time Complexity Comparision.png>] (./main.aux)
 
+LaTeX Warning: There were multiply-defined labels.
 
-! Package pdftex.def Error: File `figs/Time Complexity Comparision.png' not fou
-nd: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.616 ...th]{figs/Time Complexity Comparision.png}
-                                                  
-? 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7]
-[8
-
-] (./main.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  C50489AC4B237CCA6623115DF81D02F2;673.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: C50489AC4B237CCA6623115DF81D02F2;673.
  ) 
 Here is how much of TeX's memory you used:
- 47034 strings out of 476025
- 1095716 string characters out of 5790018
- 2114388 words of memory out of 5000000
- 66530 multiletter control sequences out of 15000+600000
- 593255 words of font info for 210 fonts, out of 8000000 for 9000
+ 46849 strings out of 476025
+ 1089795 string characters out of 5790018
+ 2162388 words of memory out of 5000000
+ 66350 multiletter control sequences out of 15000+600000
+ 594033 words of font info for 211 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 117i,17n,118p,1172b,2085s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{lstnumber.-2.27} has been referenced but does not e
-xist, replaced by a fixed one
-
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/
-local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/
-texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive
-/2023/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/local/texlive/2023/
-texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2023/texmf-d
-ist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2023/texmf-dist/fon
-ts/type1/public/txfonts/txtt.pfb></usr/local/texlive/2023/texmf-dist/fonts/type
-1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/time
-s/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.
-pfb>
-Output written on main.pdf (8 pages, 926741 bytes).
+ 117i,17n,118p,1172b,1614s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></us
+r/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/loca
+l/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texli
+ve/2023/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/local/texlive/202
+3/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2023/texmf
+-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2023/texmf-dist/f
+onts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1
+/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times
+/utmri8a.pfb>
+Output written on main.pdf (8 pages, 706886 bytes).
 PDF statistics:
- 361 PDF objects out of 1000 (max. 8388607)
- 317 compressed objects within 4 object streams
- 191 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 408 PDF objects out of 1000 (max. 8388607)
+ 350 compressed objects within 4 object streams
+ 200 named destinations out of 1000 (max. 500000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 
